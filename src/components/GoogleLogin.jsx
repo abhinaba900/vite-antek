@@ -35,7 +35,7 @@ function GoogleLogin() {
       <button
         type="button"
         onClick={responseGoogle}
-        class="login-with-google-btn"
+        className="login-with-google-btn"
       >
         Sign in with Google
       </button>

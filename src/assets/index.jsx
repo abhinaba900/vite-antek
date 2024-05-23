@@ -25,6 +25,7 @@ import InvertedComa from "./svgexport-42.svg";
 import CartForFooter from "./svgexport-53.svg";
 import TickLogo from "./svgexport-10.svg";
 import HeatPhone from "./svgexport-16.svg";
+import MapLogo from "./maplogo.png";
 
 export {
   SvgHand,
@@ -54,4 +55,5 @@ export {
   CartForFooter,
   TickLogo,
   HeatPhone,
+  MapLogo,
 };

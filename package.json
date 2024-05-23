@@ -10,9 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mapbox/mapbox-gl-draw": "^1.4.3",
     "@paypal/react-paypal-js": "^8.3.0",
+    "@turf/boolean-point-in-polygon": "^6.5.0",
+    "@turf/helpers": "^6.5.0",
+    "@turf/turf": "^6.5.0",
     "bootstrap": "^5.3.3",
     "firebase": "^10.12.0",
+    "gpi-mapbox-gl-draw-freehand-mode": "^2.1.1",
+    "leaflet": "^1.9.4",
+    "mapbox-gl": "^3.3.0",
+    "mapbox-gl-draw-freehand-mode": "^2.1.0",
+    "ol": "^9.2.1",
     "primeflex": "^3.3.1",
     "primeicons": "^7.0.0",
     "primereact": "^10.6.5",

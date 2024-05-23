@@ -6,6 +6,7 @@ import SignUp from "./SignUp";
 import FacebookLoginButton from "./FacebookLoginButton";
 import GoogleOneTapLogin from "./GoogleLogin";
 import GithubLogin from "./GithubLogin";
+import TwtterLogin from "./TwtterLogin";
 
 function LoginPage() {
   const [activeClass, setActiveClass] = React.useState(false);
@@ -38,6 +39,7 @@ function LoginPage() {
         <FacebookLoginButton />
         <GoogleOneTapLogin />
         <GithubLogin />
+        <TwtterLogin />
       </div>
       <Footer />
     </div>
