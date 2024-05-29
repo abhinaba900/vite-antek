@@ -8,7 +8,8 @@ import { BrowserRouter } from "react-router-dom";
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
-
+import { getStorage } from "firebase/storage";
+import { getFirestore } from "firebase/firestore";
 
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
@@ -24,10 +25,13 @@ const firebaseConfig = {
   messagingSenderId: "180483563898",
   appId: "1:180483563898:web:03ac50e454d97bfd1af6c3",
   measurementId: "G-5GGYF0BKKE",
+  databaseURL: "https://facebooklogin-80fc6-default-rtdb.firebaseio.com/",
 };
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
+export const imgeDb = getStorage(app);
+export const textDb = getFirestore(app);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(

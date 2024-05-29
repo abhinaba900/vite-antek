@@ -2,7 +2,7 @@ import React from "react";
 import { IoMdClose } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { CgProfile } from "react-icons/cg";
-import { FaGoogle, FaFacebook, FaGithub } from "react-icons/fa";
+import { FaGoogle, FaFacebook, FaGithub, FaTwitter } from "react-icons/fa";
 function ProfileHamburgerMenu() {
   const [active, setActive] = React.useState(false);
 
@@ -68,6 +68,9 @@ function ProfileHamburgerMenu() {
             )}
             {providerId === "github" && (
               <FaGithub className="github-icon" fontSize={40} />
+            )}
+            {providerId === "twitter" && (
+              <FaTwitter className="twitter-icon" fontSize={40} color="white" />
             )}
           </div>
           <p className="sub-menu-text border-dashed-border common-pointer">

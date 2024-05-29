@@ -7,6 +7,7 @@ import PaypalPaymentIntigration from "../components/PaypalPaymentIntigration";
 import CartPage from "../components/CartPadge";
 import LoginPage from "../components/LoginPage";
 import NumberAuthPage from "../components/NumberAuthPage";
+import AdminForm from "../components/Firebase/AdminForm";
 function AllRoutes() {
   return (
     <div>
@@ -20,6 +21,7 @@ function AllRoutes() {
         <Route path="/cart" element={<CartPage />} />
         <Route path="/login-SIGHUP" element={<LoginPage />} />
         <Route path="/checkout/:id" element={<PaypalPaymentIntigration />} />
+        <Route path="/forms" element={<AdminForm />} />
       </Routes>
     </div>
   );
